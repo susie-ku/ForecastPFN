@@ -46,12 +46,12 @@ def data_provider(args, flag):
 
     if flag == 'test':
         shuffle_flag = False
-        drop_last = True
+        drop_last = False # default True in ForecastPFN
         batch_size = args.batch_size
         freq = args.freq
     else:
         shuffle_flag = True
-        drop_last = True
+        drop_last = False # default True in ForecastPFN
         batch_size = args.batch_size
         freq = args.freq
 
