@@ -20,8 +20,8 @@ from transformer_models.models import FEDformer, Autoformer, Informer, Transform
 from utils.tools import EarlyStopping, TimeBudget, adjust_learning_rate, visual
 from utils.metrics import metric
 
-sys.path.append('/home/ubuntu/ForecastPFN/src/')
-sys.path.append('/home/ubuntu/ForecastPFN/src/training/')
+sys.path.append('/media/ssd-3t/kkuvshinova/time_series/ForecastPFN/src')
+sys.path.append('/media/ssd-3t/kkuvshinova/time_series/ForecastPFN/src/training/')
 from training.create_train_test_df import create_train_test_df
 import tensorflow as tf
 

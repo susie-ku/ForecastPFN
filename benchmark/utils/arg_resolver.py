@@ -5,8 +5,21 @@ def _model_is_transformer(model):
         return True
     return False
 
+# def setting_string(args, ii):
+#     setting = '{}_{}_sl{}_ll{}_pl{}_timebudget_{}_trainbudget_{}_model-path_{}_itr_{}'.format(
+#         args.model,
+#         args.data,
+#         args.seq_len,
+#         args.label_len,
+#         args.pred_len,
+#         args.time_budget,
+#         args.train_budget,
+#         args.model_name,
+#         ii)
+#     return setting
+
 def setting_string(args, ii):
-    setting = '{}_{}_sl{}_ll{}_pl{}_timebudget_{}_trainbudget_{}_model-path_{}_itr_{}'.format(
+    setting = '{}_{}_sl{}_ll{}_pl{}_timebudget_{}_trainbudget_{}_model-path_{}_target{}_itr_{}'.format(
         args.model,
         args.data,
         args.seq_len,
@@ -15,6 +28,7 @@ def setting_string(args, ii):
         args.time_budget,
         args.train_budget,
         args.model_name,
+        args.target,
         ii)
     return setting
 
