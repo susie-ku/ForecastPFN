@@ -1,0 +1,1 @@
+p_(mbar) T_(degC) Tpot_(K) Tdew_(degC) rh_(%) VPmax_(mbar) VPact_(mbar) VPdef_(mbar) sh_(g/kg) H2OC_(mmol/mol) rho_(g/m**3) wv_(m/s) max._wv_(m/s) wd_(deg) rain_(mm) raining_(s) SWDR_(W/m�) PAR_(�mol/m�/s) max._PAR_(�mol/m�/s) Tlog_(degC) OT

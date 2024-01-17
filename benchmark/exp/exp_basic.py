@@ -42,7 +42,7 @@ class Exp_Basic(object):
         print('test shape:', preds.shape, trues.shape)
 
         # result save
-        folder_path = './results/' + setting + '/'
+        folder_path = './results_history/' + self.args.data + '/' + setting + '/'
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
 

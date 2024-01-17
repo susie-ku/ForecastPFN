@@ -138,7 +138,7 @@ class Exp_ForecastPFN(Exp_Basic):
 
         preds = []
         trues = []
-        folder_path = './test_results/' + setting + '/'
+        folder_path = './test_results_history/' + setting + '/'
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
 

@@ -4549,3 +4549,651 @@ mse:nan, mae:nan
 ForecastPFN_weather_sl36_ll18_pl30_timebudget_None_trainbudget_512_model-path_.._targetVPmax_(mbar)_itr_0  
 mse:0.05655243790011193, mae:0.16350519305373873
 
+ForecastPFN_ili_sl148_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.378006383556301, mae:1.2022619967311283
+
+ForecastPFN_ili_sl148_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.8948763932071593, mae:1.3197420136811848
+
+ForecastPFN_ili_sl148_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.8189727999954926, mae:2.079645099672872
+
+ForecastPFN_ili_sl148_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.806568938426546, mae:1.6913377806948562
+
+ForecastPFN_ili_sl148_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:8.82758383745656, mae:2.1007507586078544
+
+ForecastPFN_ili_sl148_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:1.600840079084877, mae:1.1235434853998736
+
+ForecastPFN_ili_sl148_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:2.073135166313497, mae:1.2666328230923016
+
+ForecastPFN_weather_sl512_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetp_(mbar)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_weather_sl512_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetT_(degC)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetp_(mbar)_itr_0  
+mse:0.2160140339376397, mae:0.3253885939823808
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetT_(degC)_itr_0  
+mse:0.19484285742051732, mae:0.32351414407454
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetTpot_(K)_itr_0  
+mse:0.19317165282652057, mae:0.32256154030875245
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetTdew_(degC)_itr_0  
+mse:0.11138786088638444, mae:0.253950547880759
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetrh_(%)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetVPmax_(mbar)_itr_0  
+mse:0.09099126975276502, mae:0.21330440691821762
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetVPact_(mbar)_itr_0  
+mse:0.08630092217621257, mae:0.21515451000281688
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetVPdef_(mbar)_itr_0  
+mse:0.10121157686394028, mae:0.21917758261129816
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetsh_(g/kg)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetH2OC_(mmol/mol)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetrho_(g/m**3)_itr_0  
+mse:0.19506157841958174, mae:0.3255796149374244
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetwv_(m/s)_itr_0  
+mse:0.0008783797431357428, mae:0.022057808225447936
+
+ForecastPFN_weather_sl36_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetmax._wv_(m/s)_itr_0  
+mse:0.7426227990435036, mae:0.6380246041258094
+
+ForecastPFN_exchange_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target0_itr_0  
+mse:0.21831609904301494, mae:0.3466697657360318
+
+ForecastPFN_exchange_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target1_itr_0  
+mse:0.14861210452970855, mae:0.2935085184695052
+
+ForecastPFN_exchange_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target2_itr_0  
+mse:0.12236686577114711, mae:0.2790388331089873
+
+ForecastPFN_exchange_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target3_itr_0  
+mse:0.10770763589571263, mae:0.25251944200375676
+
+ForecastPFN_exchange_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target4_itr_0  
+mse:0.023370628777732366, mae:0.08476972141220408
+
+ForecastPFN_exchange_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target5_itr_0  
+mse:0.28753959846303145, mae:0.3685424831373279
+
+ForecastPFN_exchange_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target6_itr_0  
+mse:0.1176086434251535, mae:0.26555737647104494
+
+ForecastPFN_exchange_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:0.15398486211647222, mae:0.2879958608900831
+
+ForecastPFN_exchange_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target0_itr_0  
+mse:0.3607989853692487, mae:0.448685916235198
+
+ForecastPFN_exchange_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target1_itr_0  
+mse:0.25903628486303004, mae:0.38941279741541907
+
+ForecastPFN_exchange_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target2_itr_0  
+mse:0.19650521091056078, mae:0.3575196552396098
+
+ForecastPFN_exchange_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target3_itr_0  
+mse:0.15351594998408358, mae:0.2979428602490412
+
+ForecastPFN_exchange_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target4_itr_0  
+mse:0.029552217183027606, mae:0.11388506729912985
+
+ForecastPFN_exchange_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target5_itr_0  
+mse:0.5385788080431066, mae:0.4998780877122021
+
+ForecastPFN_exchange_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target6_itr_0  
+mse:0.1795354422655887, mae:0.32734993369945437
+
+ForecastPFN_exchange_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:0.24627556219652144, mae:0.36261352779177786
+
+ForecastPFN_exchange_sl192_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target0_itr_0  
+mse:0.5891426868370891, mae:0.5949242242134077
+
+ForecastPFN_exchange_sl192_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target2_itr_0  
+mse:0.31068730334317696, mae:0.451414623164075
+
+ForecastPFN_exchange_sl192_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target3_itr_0  
+mse:0.20353420507523715, mae:0.3389036076774149
+
+ForecastPFN_exchange_sl192_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target4_itr_0  
+mse:0.038266832006049856, mae:0.14538627583304087
+
+ForecastPFN_exchange_sl192_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target5_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl192_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target6_itr_0  
+mse:0.27872054831866205, mae:0.41058807921828466
+
+ForecastPFN_exchange_sl192_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:0.38650549655358574, mae:0.4662614964063394
+
+ForecastPFN_exchange_sl384_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target0_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl384_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target1_itr_0  
+mse:0.5570671993792055, mae:0.6047428794550059
+
+ForecastPFN_exchange_sl384_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target2_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl384_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target3_itr_0  
+mse:0.2872436350797614, mae:0.4224677099674942
+
+ForecastPFN_exchange_sl384_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target5_itr_0  
+mse:1.9090688724139633, mae:1.1676982773409679
+
+ForecastPFN_exchange_sl384_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:0.7334784539498321, mae:0.6438145888480317
+
+ForecastPFN_exchange_sl490_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target0_itr_0  
+mse:1.4200830266070685, mae:1.0193085905073753
+
+ForecastPFN_exchange_sl490_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target1_itr_0  
+mse:0.6291864462390936, mae:0.653803824443233
+
+ForecastPFN_exchange_sl490_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target2_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl490_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target3_itr_0  
+mse:0.36527382524174257, mae:0.4949294827378936
+
+ForecastPFN_exchange_sl490_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target5_itr_0  
+mse:2.499575698901815, mae:1.387952343123424
+
+ForecastPFN_exchange_sl490_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target6_itr_0  
+mse:0.5931549467757102, mae:0.591435479220007
+
+ForecastPFN_exchange_sl490_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:0.9174814555461269, mae:0.6990270147408394
+
+ForecastPFN_exchange_sl768_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target0_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl768_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target1_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl768_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target2_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl768_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target3_itr_0  
+mse:0.49866041759375845, mae:0.6070807405541101
+
+ForecastPFN_exchange_sl768_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target4_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl768_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target5_itr_0  
+mse:4.050435377789676, mae:1.8256330241991825
+
+ForecastPFN_exchange_sl768_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target6_itr_0  
+mse:0.8627455939651277, mae:0.7508539702680163
+
+ForecastPFN_exchange_sl768_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:1.245386359170721, mae:0.8636079411345036
+
+ForecastPFN_exchange_sl1536_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target0_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl1536_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target1_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl1536_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target2_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl1536_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target3_itr_0  
+mse:0.5809553450200844, mae:0.6166948348170072
+
+ForecastPFN_exchange_sl1536_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target4_itr_0  
+mse:0.08525656190248763, mae:0.22668134755675565
+
+ForecastPFN_exchange_sl1536_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target6_itr_0  
+mse:1.233639732344338, mae:0.8888160810392423
+
+ForecastPFN_exchange_sl1536_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:1.3379427384654539, mae:0.9088384833786873
+
+ForecastPFN_exchange_sl3072_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target0_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl3072_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target1_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl3072_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target2_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl3072_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target3_itr_0  
+mse:0.38346483478882804, mae:0.5035170260689023
+
+ForecastPFN_exchange_sl3072_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target4_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl3072_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target5_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_exchange_sl3072_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._target6_itr_0  
+mse:1.1208336623728685, mae:0.8434076149041444
+
+ForecastPFN_exchange_sl3072_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:1.055239815002149, mae:0.8294967591649384
+
+ForecastPFN_ili_sl24_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:4.335062292524136, mae:1.7248941552544221
+
+ForecastPFN_ili_sl24_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:5.183315972932754, mae:1.8853151846241651
+
+ForecastPFN_ili_sl24_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:11.037190980158723, mae:2.748034951828376
+
+ForecastPFN_ili_sl24_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:9.339924587402098, mae:2.410376281091488
+
+ForecastPFN_ili_sl24_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:14.483705332081394, mae:3.0827425917012663
+
+ForecastPFN_ili_sl24_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:0.9151643689336261, mae:0.835895037483363
+
+ForecastPFN_ili_sl24_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:1.4304590597273732, mae:1.0228552535803246
+
+ForecastPFN_ili_sl48_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.5189817135141253, mae:1.2947446135607037
+
+ForecastPFN_ili_sl48_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:3.0900955540646304, mae:1.426892742994971
+
+ForecastPFN_ili_sl48_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.9336991754134445, mae:2.200657029657485
+
+ForecastPFN_ili_sl48_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.9426358015395975, mae:1.850134155649205
+
+ForecastPFN_ili_sl48_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:8.947252409876334, mae:2.323461129090089
+
+ForecastPFN_ili_sl48_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:0.6924680199350853, mae:0.7416350939819737
+
+ForecastPFN_ili_sl48_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:1.063380908905535, mae:0.8646349372687204
+
+ForecastPFN_ili_sl96_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.4217675537938583, mae:1.2356381223723651
+
+ForecastPFN_ili_sl96_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.9468103934202583, mae:1.3581374644911173
+
+ForecastPFN_ili_sl96_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.86004270210932, mae:2.1434883806582703
+
+ForecastPFN_ili_sl96_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.797328197483045, mae:1.7529499933609651
+
+ForecastPFN_ili_sl96_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:8.710022349460129, mae:2.1805139791258945
+
+ForecastPFN_ili_sl96_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:1.1145011263494031, mae:0.9281137899397032
+
+ForecastPFN_ili_sl96_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:1.4962458458883852, mae:1.0521177042875245
+
+ForecastPFN_ili_sl192_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.4176238611583143, mae:1.1958383158895987
+
+ForecastPFN_ili_sl192_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.9323641488100454, mae:1.3083987685089822
+
+ForecastPFN_ili_sl192_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.888199528254274, mae:2.048967230765523
+
+ForecastPFN_ili_sl192_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.914302041682611, mae:1.6653041904485937
+
+ForecastPFN_ili_sl192_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:9.092687501445898, mae:2.0636786669811795
+
+ForecastPFN_ili_sl192_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:1.9643822418112649, mae:1.2433482719005933
+
+ForecastPFN_ili_sl192_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:2.5232891705937677, mae:1.4002625929197445
+
+ForecastPFN_ili_sl384_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.3678234437025445, mae:1.1254648169818788
+
+ForecastPFN_ili_sl384_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.885880847535319, mae:1.2308867848486187
+
+ForecastPFN_ili_sl384_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.921635776551946, mae:1.9433430349117669
+
+ForecastPFN_ili_sl384_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:6.053020044450641, mae:1.5660294628504257
+
+ForecastPFN_ili_sl384_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:9.620365865282048, mae:1.9605369518594247
+
+ForecastPFN_ili_sl384_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:2.779991617699418, mae:1.4715052297759303
+
+ForecastPFN_ili_sl384_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:3.6845801447890802, mae:1.6973850938441597
+
+ForecastPFN_ili_sl768_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.382407595221903, mae:1.0970469244606396
+
+ForecastPFN_ili_sl768_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.9287430924964735, mae:1.1987335700758739
+
+ForecastPFN_ili_sl768_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:7.705749309258292, mae:1.954262342862291
+
+ForecastPFN_ili_sl768_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:6.500721582148683, mae:1.5410717228807627
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.4250629228683183, mae:1.2631592778539296
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.967364891891598, mae:1.3915286299826186
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.745613786722485, mae:2.1620558430089853
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.79318036908729, mae:1.8143852923467423
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:8.648208772602487, mae:2.2680344374134354
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:0.7159986470905436, mae:0.7459257038064697
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:1.0915650644429655, mae:0.8717818350184198
+
+ForecastPFN_ili_sl104_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.3199448527410746, mae:1.2013295215760644
+
+ForecastPFN_ili_sl104_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.824489416563756, mae:1.3209575676817085
+
+ForecastPFN_ili_sl104_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.6686502964921015, mae:2.1041794122634854
+
+ForecastPFN_ili_sl104_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.652677839420456, mae:1.717966624588976
+
+ForecastPFN_ili_sl104_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:8.466411036551971, mae:2.129465708408356
+
+ForecastPFN_ili_sl104_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:1.1795240626787957, mae:0.9525332219388841
+
+ForecastPFN_ili_sl104_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:1.5790083374674544, mae:1.087998657196277
+
+ForecastPFN_ili_sl156_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.321109998868789, mae:1.181677101057997
+
+ForecastPFN_ili_sl156_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.82779373101259, mae:1.2972484484815043
+
+ForecastPFN_ili_sl156_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.7334061256566216, mae:2.0549370661753192
+
+ForecastPFN_ili_sl156_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.7460645231555345, mae:1.6699089349883454
+
+ForecastPFN_ili_sl156_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:8.754937585938773, mae:2.0733129385018643
+
+ForecastPFN_ili_sl156_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:1.6644891640110806, mae:1.1441639917839026
+
+ForecastPFN_ili_sl156_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:2.1574953908793693, mae:1.294973156784552
+
+ForecastPFN_ili_sl208_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.3341159215334857, mae:1.1596176049315439
+
+ForecastPFN_ili_sl208_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.844040518207102, mae:1.2722554689009296
+
+ForecastPFN_ili_sl208_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.753862120790903, mae:2.0057562651601604
+
+ForecastPFN_ili_sl208_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.838813901759283, mae:1.6292382804057308
+
+ForecastPFN_ili_sl208_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:9.002686875542524, mae:2.0177022074662583
+
+ForecastPFN_ili_sl208_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:2.047458039056007, mae:1.2670247412975688
+
+ForecastPFN_ili_sl208_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:2.646439428114838, mae:1.4360471043726415
+
+ForecastPFN_ili_sl260_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.3095586184561134, mae:1.1347365266156864
+
+ForecastPFN_ili_sl260_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.8175168886121, mae:1.2445251498057528
+
+ForecastPFN_ili_sl260_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.73788072062636, mae:1.964644292850121
+
+ForecastPFN_ili_sl260_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.855952703504806, mae:1.589003094177615
+
+ForecastPFN_ili_sl260_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:9.148485450509776, mae:1.9697585758446594
+
+ForecastPFN_ili_sl260_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:2.3116108557092923, mae:1.3435391033760133
+
+ForecastPFN_ili_sl260_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:3.0158064880158, mae:1.5334389717408587
+
+ForecastPFN_ili_sl312_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.3384832484216553, mae:1.1325106087938381
+
+ForecastPFN_ili_sl312_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.85131011993711, mae:1.2391898941608128
+
+ForecastPFN_ili_sl312_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.785521760832505, mae:1.9496668135823143
+
+ForecastPFN_ili_sl312_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.947945131379797, mae:1.5777595405051688
+
+ForecastPFN_ili_sl312_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:9.350167922493116, mae:1.9562210496458852
+
+ForecastPFN_ili_sl312_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:2.512340669981425, mae:1.3999592955816476
+
+ForecastPFN_ili_sl312_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:3.3047389069931747, mae:1.6068155837707367
+
+ForecastPFN_ili_sl364_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.335418789324078, mae:1.119152614136675
+
+ForecastPFN_ili_sl364_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.8477442062595073, mae:1.2239149050046532
+
+ForecastPFN_ili_sl364_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.825688065592665, mae:1.9327223257576205
+
+ForecastPFN_ili_sl364_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.984695133323085, mae:1.5581691170193075
+
+ForecastPFN_ili_sl364_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:9.496297650044584, mae:1.9464572870389891
+
+ForecastPFN_ili_sl364_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:2.692895910801991, mae:1.4508145893475939
+
+ForecastPFN_ili_sl364_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:3.573159244467716, mae:1.6727503874215868
+
+ForecastPFN_ili_sl416_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.3534937705905605, mae:1.115259160786878
+
+ForecastPFN_ili_sl416_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.876241745192872, mae:1.2205379590181484
+
+ForecastPFN_ili_sl416_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.877978815826239, mae:1.9246372361386932
+
+ForecastPFN_ili_sl416_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:6.055613896365066, mae:1.55180633310953
+
+ForecastPFN_ili_sl416_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:9.647499555695857, mae:1.9463055390990005
+
+ForecastPFN_ili_sl416_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:2.8608743905632035, mae:1.4952146672417057
+
+ForecastPFN_ili_sl416_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:3.8048256149247535, mae:1.7265850026877505
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetp_(mbar)_itr_0  
+mse:0.24684464261043895, mae:0.3502537447035462
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetT_(degC)_itr_0  
+mse:0.1963424344510491, mae:0.32718365483724055
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetTpot_(K)_itr_0  
+mse:0.19507175620121575, mae:0.32676192019810935
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetTdew_(degC)_itr_0  
+mse:0.11650845777186145, mae:0.26193313446891936
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetrh_(%)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetVPmax_(mbar)_itr_0  
+mse:0.09271647468269727, mae:0.21665432989805306
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetVPact_(mbar)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetVPdef_(mbar)_itr_0  
+mse:0.10246502223271743, mae:0.2226486393572152
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetsh_(g/kg)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetH2OC_(mmol/mol)_itr_0  
+mse:0.09145827516014308, mae:0.22216248304089647
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetrho_(g/m**3)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetwv_(m/s)_itr_0  
+mse:0.0008965692115427272, mae:0.02242462956578944
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetmax._wv_(m/s)_itr_0  
+mse:0.7596124929179892, mae:0.6491327391007593
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetwd_(deg)_itr_0  
+mse:0.5166351748634627, mae:0.46361243971766297
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetrain_(mm)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetraining_(s)_itr_0  
+mse:1.7249905351404604, mae:0.5307164408274374
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetSWDR_(W/m�)_itr_0  
+mse:0.2495224750729457, mae:0.34194073087554355
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetPAR_(�mol/m�/s)_itr_0  
+mse:0.2405254755138864, mae:0.34040137992658187
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetmax._PAR_(�mol/m�/s)_itr_0  
+mse:0.17253858819989776, mae:0.2884402155365654
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetTlog_(degC)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_weather_sl48_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:0.0015009920130099723, mae:0.028260179366012054
+
+ForecastPFN_weather_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetp_(mbar)_itr_0  
+mse:0.380386238189794, mae:0.44111823895100466
+
+ForecastPFN_weather_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetT_(degC)_itr_0  
+mse:0.1774968874630848, mae:0.31440288701303243
+
+ForecastPFN_weather_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetTpot_(K)_itr_0  
+mse:0.17978154605088606, mae:0.3164063609925958
+
+ForecastPFN_weather_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetTdew_(degC)_itr_0  
+mse:0.13455277848814487, mae:0.2853239053207787
+
+ForecastPFN_weather_sl96_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetrh_(%)_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.4250629228683183, mae:1.2631592778539296
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.967364891891598, mae:1.3915286299826186
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.745613786722485, mae:2.1620558430089853
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.79318036908729, mae:1.8143852923467423
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:8.648208772602487, mae:2.2680344374134354
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:0.7159986470905436, mae:0.7459257038064697
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:1.0915650644429655, mae:0.8717818350184198
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%_WEIGHTED_ILI_itr_0  
+mse:2.4250629228683183, mae:1.2631592778539296
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._target%UNWEIGHTED_ILI_itr_0  
+mse:2.967364891891598, mae:1.3915286299826186
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_0-4_itr_0  
+mse:6.745613786722485, mae:2.1620558430089853
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetAGE_5-24_itr_0  
+mse:5.79318036908729, mae:1.8143852923467423
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetILITOTAL_itr_0  
+mse:8.648208772602487, mae:2.2680344374134354
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetNUM._OF_PROVIDERS_itr_0  
+mse:0.7159986470905436, mae:0.7459257038064697
+
+ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
+mse:1.0915650644429655, mae:0.8717818350184198
+
