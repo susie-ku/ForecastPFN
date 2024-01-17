@@ -5197,3 +5197,21 @@ mse:0.7159986470905436, mae:0.7459257038064697
 ForecastPFN_ili_sl52_ll18_pl24_timebudget_None_trainbudget_1_model-path_.._targetOT_itr_0  
 mse:1.0915650644429655, mae:0.8717818350184198
 
+ForecastPFN_ETTh1_sl24_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetHUFL_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_ETTh1_sl24_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetHULL_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_ETTh1_sl24_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetMUFL_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_ETTh1_sl24_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetMULL_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_ETTh1_sl24_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetLUFL_itr_0  
+mse:nan, mae:nan
+
+ForecastPFN_ETTh1_sl24_ll18_pl96_timebudget_None_trainbudget_1_model-path_.._targetLULL_itr_0  
+mse:nan, mae:nan
+

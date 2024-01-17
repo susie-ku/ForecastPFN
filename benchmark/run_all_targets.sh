@@ -33,31 +33,31 @@ model=ForecastPFN
 
 # nvidia-smi
 
-for seqLen in 48 96 101 # 192 384 768 1536 3072 6144
-do
+# for seqLen in 48 96 101 # 192 384 768 1536 3072 6144
+# do
 
-targets=$(<../academic_data/weather/weather_agg.txt)
-for target in $targets
-do
+# targets=$(<../academic_data/weather/weather_agg.txt)
+# for target in $targets
+# do
 
-# weather
-python run.py \
- --is_training $is_training \
- --data weather \
- --root_path ../academic_data/weather/ \
- --data_path weather_.csv \
- --model $model \
- --model_path ../saved_weights \
- --seq_len $seqLen \
- --label_len 18 \
- --pred_len 96 \
- --train_budget 1 \
- --itr 5 \
- --target $target
+# # weather
+# python run.py \
+#  --is_training $is_training \
+#  --data weather \
+#  --root_path ../academic_data/weather/ \
+#  --data_path weather_.csv \
+#  --model $model \
+#  --model_path ../saved_weights \
+#  --seq_len $seqLen \
+#  --label_len 18 \
+#  --pred_len 96 \
+#  --train_budget 1 \
+#  --itr 5 \
+#  --target $target
 
-done;
+# done;
 
-done;
+# done;
 
 # nvidia-smi
 
@@ -119,32 +119,32 @@ done;
 
 # nvidia-smi
 
-# for seqLen in 24 48 96 192 384 768 1536 3072
-# do
+for seqLen in 24 48 96 100 # 192 384 768 1536 3072
+do
 
-# targets=$(<../academic_data/ETT-small/ETTh1_agg.txt)
-# for target in $targets
-# do
+targets=$(<../academic_data/ETT-small/ETTh1_agg.txt)
+for target in $targets
+do
 
 
-# # ETTh1
-# python run.py \
-#  --is_training $is_training \
-#  --data ETTh1 \
-#  --root_path ../academic_data/ETT-small/ \
-#  --data_path ETTh1_.csv \
-#  --model $model \
-#  --model_path ../saved_weights \
-#  --seq_len $seqLen \
-#  --label_len 18 \
-#  --pred_len 96 \
-#  --train_budget 1 \
-#  --itr 5 \
-#  --target $target
+# ETTh1
+python run.py \
+ --is_training $is_training \
+ --data ETTh1 \
+ --root_path ../academic_data/ETT-small/ \
+ --data_path ETTh1_.csv \
+ --model $model \
+ --model_path ../saved_weights \
+ --seq_len $seqLen \
+ --label_len 18 \
+ --pred_len 96 \
+ --train_budget 1 \
+ --itr 5 \
+ --target $target
 
-# done;
+done;
 
-# done;
+done;
 
 # nvidia-smi
 

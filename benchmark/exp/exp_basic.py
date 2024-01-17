@@ -34,8 +34,8 @@ class Exp_Basic(object):
         return data_set, data_loader
 
     def _save_test_data(self, setting, preds, trues):
-        preds = np.array(preds)
-        trues = np.array(trues)
+        preds = np.vstack(preds)
+        trues = np.vstack(trues)
         print('test shape:', preds.shape, trues.shape)
         preds = preds.reshape(-1, preds.shape[-2], preds.shape[-1])
         trues = trues.reshape(-1, trues.shape[-2], trues.shape[-1])
