@@ -90,35 +90,6 @@ model=ForecastPFN
 
 # nvidia-smi
 
-# for seqLen in 48 96 192 384 768 1536 3072 6144
-# do
-
-# targets=$(<../academic_data/electricity/electricity.txt)
-# for target in $targets
-# do
-
-
-# # electricity
-# python run.py \
-#  --is_training $is_training \
-#  --data ECL \
-#  --root_path ../academic_data/electricity/ \
-#  --data_path electricity_.csv \
-#  --model $model \
-#  --model_path ../saved_weights \
-#  --seq_len $seqLen \
-#  --label_len 18 \
-#  --pred_len 96 \
-#  --train_budget 1 \
-#  --itr 5 \
-#  --target $target
-
-# done;
-
-# done;
-
-# nvidia-smi
-
 for seqLen in 24 48 96 100 # 192 384 768 1536 3072
 do
 
@@ -148,34 +119,118 @@ done;
 
 # nvidia-smi
 
-# for seqLen in 24 48 96 192 384 768 1536 3072
-# do
+for seqLen in 24 48 96 100 # 192 384 768 1536 3072
+do
 
-# targets=$(<../academic_data/ETT-small/ETTh2_agg.txt)
-# for target in $targets
-# do
+targets=$(<../academic_data/ETT-small/ETTh2_agg.txt)
+for target in $targets
+do
 
 
-# # ETTh2
-# python run.py \
-#  --is_training $is_training \
-#  --data ETTh2 \
-#  --root_path ../academic_data/ETT-small/ \
-#  --data_path ETTh2_.csv \
-#  --model $model \
-#  --model_path ../saved_weights \
-#  --seq_len $seqLen \
-#  --label_len 18 \
-#  --pred_len 96 \
-#  --train_budget 1 \
-#  --itr 5 \
-#  --target $target
+# ETTh2
+python run.py \
+ --is_training $is_training \
+ --data ETTh2 \
+ --root_path ../academic_data/ETT-small/ \
+ --data_path ETTh2_.csv \
+ --model $model \
+ --model_path ../saved_weights \
+ --seq_len $seqLen \
+ --label_len 18 \
+ --pred_len 96 \
+ --train_budget 1 \
+ --itr 5 \
+ --target $target
 
-# done;
+done;
 
-# done;
+done;
 
 #?????? ETTm1, ETTm2????
+for seqLen in 96 100 
+do
+
+targets=$(<../academic_data/ETT-small/ETTh1_agg.txt)
+for target in $targets
+do
+
+
+# ETTh1
+python run.py \
+ --is_training $is_training \
+ --data ETTh1 \
+ --root_path ../academic_data/ETT-small/ \
+ --data_path ETTm1_.csv \
+ --model $model \
+ --model_path ../saved_weights \
+ --seq_len $seqLen \
+ --label_len 18 \
+ --pred_len 96 \
+ --train_budget 1 \
+ --itr 5 \
+ --target $target
+
+done;
+
+done;
+
+# nvidia-smi
+
+for seqLen in 96 100 
+do
+
+targets=$(<../academic_data/ETT-small/ETTh2_agg.txt)
+for target in $targets
+do
+
+
+# ETTh2
+python run.py \
+ --is_training $is_training \
+ --data ETTh2 \
+ --root_path ../academic_data/ETT-small/ \
+ --data_path ETTm2_.csv \
+ --model $model \
+ --model_path ../saved_weights \
+ --seq_len $seqLen \
+ --label_len 18 \
+ --pred_len 96 \
+ --train_budget 1 \
+ --itr 5 \
+ --target $target
+
+done;
+
+done;
+
+# nvidia-smi
+
+for seqLen in 48 96 100 # 192 384 768 1536 3072 6144
+do
+
+targets=$(<../academic_data/electricity/electricity.txt)
+for target in $targets
+do
+
+
+# electricity
+python run.py \
+ --is_training $is_training \
+ --data ECL \
+ --root_path ../academic_data/electricity/ \
+ --data_path electricity_.csv \
+ --model $model \
+ --model_path ../saved_weights \
+ --seq_len $seqLen \
+ --label_len 18 \
+ --pred_len 96 \
+ --train_budget 1 \
+ --itr 5 \
+ --target $target
+
+done;
+
+done;
 
 # #########################################
 # # ForecastPFN ILI
