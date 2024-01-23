@@ -4,7 +4,7 @@ import numpy as np
 import torch as t
 from itertools import chain
 
-from common.torch_utils import div_no_nan
+from ..common.torch_utils import div_no_nan
 
 
 class NBeatsFC(t.nn.Module):

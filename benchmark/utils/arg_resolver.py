@@ -38,9 +38,9 @@ def resolve_args(args):
     args.freq = 'h'
     args.checkpoints = './checkpoints/'
     args.embed = 'timeF'
-    args.batch_size = 512 #etth1 #79 #exchange #373 #weather #34 #ili
+    args.batch_size = 1 #etth1 #79 #exchange #373 #weather #34 #ili
     args.gpu = 0
-    args.use_multi_gpu = False
+    args.use_multi_gpu = True
     args.devices = '0,1'
     args.num_workers = 10
     if args.scaler == 'standard':
