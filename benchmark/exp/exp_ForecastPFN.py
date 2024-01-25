@@ -13,6 +13,7 @@ from utils.metrics import smape
 import tensorflow as tf
 import tensorflow_io
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
+from tqdm import tqdm
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
   try:
@@ -24,44 +25,44 @@ if gpus:
 
 warnings.filterwarnings('ignore')
 
-class Exp_ForecastPFN(Exp_Basic):
-    def __init__(self, args):
-        super(Exp_ForecastPFN, self).__init__(args)
+# class Exp_ForecastPFN(Exp_Basic):
+#     def __init__(self, args):
+#         super(Exp_ForecastPFN, self).__init__(args)
 
-    def _build_model(self):
-        return
+#     def _build_model(self):
+#         return
 
-    def train(self, setting):
-        return 
+#     def train(self, setting):
+#         return 
     
-    def _ForecastPFN_time_features(self, ts: np.ndarray):
-        if type(ts[0]) == datetime.datetime:
-            year = [x.year for x in ts]
-            month = [x.month for x in ts]
-            day = [x.day for x in ts]
-            day_of_week = [x.weekday()+1 for x in ts]
-            day_of_year = [x.timetuple().tm_yday for x in ts]
-            return np.stack([year, month, day, day_of_week, day_of_year], axis=-1)
-        ts = pd.to_datetime(ts)
-        return np.stack([ts.year, ts.month, ts.day, ts.day_of_week + 1, ts.day_of_year], axis=-1)
+#     def _ForecastPFN_time_features(self, ts: np.ndarray):
+#         if type(ts[0]) == datetime.datetime:
+#             year = [x.year for x in ts]
+#             month = [x.month for x in ts]
+#             day = [x.day for x in ts]
+#             day_of_week = [x.weekday()+1 for x in ts]
+#             day_of_year = [x.timetuple().tm_yday for x in ts]
+#             return np.stack([year, month, day, day_of_week, day_of_year], axis=-1)
+#         ts = pd.to_datetime(ts)
+#         return np.stack([ts.year, ts.month, ts.day, ts.day_of_week + 1, ts.day_of_year], axis=-1)
     
-    def test(self, setting, test=0):
-        test_data, test_loader = self._get_data(flag='test')
-        test_data.data_stamp = self._ForecastPFN_time_features(
-            list(test_data.data_stamp_original['date']))
-        if test:
-            print('loading model')
-            pretrained = tf.keras.models.load_model(
-                self.args.model_path, custom_objects={'smape': smape})
+#     def test(self, setting, test=0):
+#         test_data, test_loader = self._get_data(flag='test')
+#         test_data.data_stamp = self._ForecastPFN_time_features(
+#             list(test_data.data_stamp_original['date']))
+#         if test:
+#             print('loading model')
+#             pretrained = tf.keras.models.load_model(
+#                 self.args.model_path, custom_objects={'smape': smape})
             
-        with torch.no_grad():
-            for i, (model_input, mean, std) in enumerate(test_loader):
-                pred_vals = pretrained(model_input)
-                scaled_vals = pred_vals['result'].numpy().T.reshape(-1) * pred_vals['scale'].numpy().reshape(-1)
-                scaled_vals = scaled_vals * std + mean
-                true_vals = model_input['history']
-                print(scaled_vals.shape)
-                print(true_vals.shape)
+#         with torch.no_grad():
+#             for i, (model_input, mean, std) in enumerate(test_loader):
+#                 pred_vals = pretrained(model_input)
+#                 scaled_vals = pred_vals['result'].numpy().T.reshape(-1) * pred_vals['scale'].numpy().reshape(-1)
+#                 scaled_vals = scaled_vals * std + mean
+#                 true_vals = model_input['history']
+#                 print(scaled_vals.shape)
+#                 print(true_vals.shape)
             
         
         
